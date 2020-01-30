@@ -1,0 +1,50 @@
+header{
+  background-image: url("../img/yo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 500px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.titulo-miportafolio{
+  padding-top: 200px;
+  font-family: 'Amatic SC', cursive;
+}
+.logo-portafolio{
+height: 100px;
+}
+.section-1{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.section-2{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.titulo-0{
+  font-size: 100px;
+}
+.titulo-1{
+  font-family: 'Amatic SC', cursive;
+  font-size: 70px;
+}
+.subtitulo-1{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.titulo-2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 70px;
+}
+.subtitulo-2{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.titulo-3{
+  font-family: 'Amatic SC', cursive;
+  font-size: 70px;
+}
+footer{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.nav-link{
+  font-size: 20px;
+  color: white;
+}

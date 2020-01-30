@@ -1,10 +1,184 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Mi Portafolio</title>
+  <meta name="viewport:" content="width=device-width, initial-scale=1.0">
+
+
+  <!--CSS de Bootstrap 4.2.1-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <!--Mi Estilo-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#"><img class="logo-portafolio" src="assets/img/logo.png" alt="Logo de Mi Portafolio"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav ">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#experiencia">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#trabajos">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero text-light text-center p-5">
+    <div class="container">
+      <h1 class="my-2 titulo-miportafolio titulo-0">Mi Portafolio</h1>
+      <p class="my-2">Yo soy Catalina Fernanda Achá García</p>
+    </div>
+  </header>
+
+  <section class="container text-center my-5 section-1">
+    <p>Titulada de Ingeniería Comercial de la Universidad Mayor. Hábil trabajando en quipo, con capacidad analítica y destreza en tareas que requieren de mapeo y levantamiento de información. Me encuentro en la búsqueda del constante aprendizaje e
+      innovación, enfrentarme a nuevas situaciones y formas de trabajo, rodearme de nuevas personas capaces de transmitir sus conocimientos. Encontrar un equipo en donde pueda desenvolverme con confianza, y donde la retroalimentación e feedback sea
+      constante.Me interesa viajar y aprender de nuevas culturas, los espacios verdes, el deporte y los animales.
+    </p>
+  </section>
+
+  <section class="container text-center my-5 section-2">
+    <div class="row">
+      <div class="col-md-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
+      </div>
+      <div class="col-md-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container text-center my-5" id="experiencia">
+    <h1 class=" text-center font-weight-bold my-4 text-dark titulo-1">MI EXPERIENCIA</h1>
+    <div class="row subtitulo-1">
+      <div class="col-md-4">
+        <i class="fas fa-user-graduate fa-4x my-3 text-info"></i>
+        <h3 class="my-3">Universidad Mayor</h3>
+        <p class="my-3">Ingeniería Comercial</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fas fa-ad fa-4x my-3 text-info"></i>
+        <h3 class="my-3">Universidad de Chile</h3>
+        <p class="my-3">Plan de Marketing Digital</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fas fa-laptop fa-4x my-3 text-info"></i>
+        <h3 class="my-3">Desafío Latam</h3>
+        <p class="my-3">Diseño UX/UI.</p>
+      </div>
+  </section>
+
+  <section class="container my-5 p-5 bg-warning" id="trabajos">
+    <h2 class="text-center font-weight-bold my-4 text-white titulo-2">MIS TRABAJOS</h2>
+    <div class="card-deck subtitulo-2">
+      <div class="card">
+        <img src="assets/img/meet.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Proyecto Meet&coffee</h5>
+          <p class="card-text">Aprendiendo a integrar y utilizar HTML y CSS.</p>
+          <p class="card-text"><small class="text-muted"></small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/img/olivia.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Proyecto Olivia Ros</h5>
+          <p class="card-text">Integrando Boostrap y sus distintos componentes.</p>
+          <p class="card-text"><small class="text-muted"></small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/img/suricata.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Proyecto Suricata</h5>
+          <p class="card-text">Utilizando las herramientas de Bootstrap.</p>
+          <p class="card-text"><small class="text-muted"></small></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container text-center my-5" id="contacto">
+    <h2 class="text-center font-weight-bold my-4 text-dark titulo-3">CONTACTO</h2>
+    <p>¿Quieres conocer más de mi?</p>
+    <div class="typeform-widget" data-url="https://cataacha.typeform.com/to/rJB6w5" style="width: 100%; height: 500px;"></div>
+    <script>
+      (function() {
+        var qs, js, q, s, d = document,
+          gi = d.getElementById,
+          ce = d.createElement,
+          gt = d.getElementsByTagName,
+          id = "typef_orm",
+          b = "https://embed.typeform.com/";
+        if (!gi.call(d, id)) {
+          js = ce.call(d, "script");
+          js.id = id;
+          js.src = b + "embed.js";
+          q = gt.call(d, "script")[0];
+          q.parentNode.insertBefore(js, q)
+        }
+      })()
+    </script>
+    <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a
+        href="https://admin.typeform.com/signup?utm_campaign=rJB6w5&utm_source=typeform.com-01DZQ6Y8SQVETV43A71Z7G1ET1-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999"
+        target="_blank">Typeform</a> </div>
+  </section>
+
+  <footer class="container-fluid py-5 text-center text-white bg-dark">
+    <div class="row">
+      <div class="d-flex align-items-center text-center col-lg-6">
+        <h2 class="font-weight-bold gd-dark">CATALINA FERNANDA ACHA GARCIA</h2>
+      </div>
+
+      <div class="text-center gd-dark col-lg-6">
+
+        <a data-toggle="tooltip" data-placement="top" title="instagram" href="https://www.instagram.com/"><i class="p-2 fab fa-instagram fa-3x"></i></a>
+        <a data-toggle="tooltip" data-placement="top" title="facebook" href="https://www.facebook.com/"><i class="p-2 fab fa-facebook-square fa-3x"></i></a>
+        <a data-toggle="tooltip" data-placement="top" title="linkedin" href="https://www.linkedin.com/feed/"><i class="p-2 fab fa-linkedin fa-3x"></i></a>
+        <a data-toggle="tooltip" data-placement="top" title="twitter" href="https://twitter.com/"><i class="p-2 fab fa-twitter-square fa-3x"></i></a>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!--Popper JS 1.14.3-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <!--Boostrap JS 4.2.1-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!--Mi Script-->
+  <script type="text/javascript" src="assets/js/script.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+  </script>
+</body>
+
 </html>
